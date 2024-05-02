@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <h1>temperature-conversion</h1>
+      <h1 className="title">temperature-conversion</h1>
       <div className="card">
         <label>Fahrenheit:</label>
         <input type="number" onChange={convertToCelsius}></input>
